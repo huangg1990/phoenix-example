@@ -1,0 +1,39 @@
+--创建项目
+mix phx.new phoenix_api --app phoenix_api --module PhoenixApi --no-html --no-webpack --database mysql
+
+--创建开发数据库
+cd phoenix_api
+mix ecto.create
+
+--删除开发环境的数据库：
+mix ecto.drop
+
+--删除测试环境的数据库：
+MIX_ENV=test mix ecto.drop
+
+--启动开发服务器
+mix phx.server
+
+--生成用户架构和Auth上下文模块
+mix phx.gen.context Auth User users email:string:unique \
+is_active:boolean
+
+--运行新迁移 创建表
+mix ecto.migrate
+
+-- 阅读有关此生成器的一些信息
+mix help phx.gen.context
+
+
+-- 获取依赖
+mix deps.get
+
+-- 查看路由
+mix phx.routes
+
+user_path  GET     /api/users      PhoenixApiWeb.UserController :index
+user_path  GET     /api/users/:id  PhoenixApiWeb.UserController :show
+user_path  POST    /api/users      PhoenixApiWeb.UserController :create
+user_path  PATCH   /api/users/:id  PhoenixApiWeb.UserController :update
+           PUT     /api/users/:id  PhoenixApiWeb.UserController :update
+user_path  DELETE  /api/users/:id  PhoenixApiWeb.UserController :delete

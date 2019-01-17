@@ -56,4 +56,6 @@ config :phoenix_api, PhoenixApi.Repo,
   pool_size: 10
 
 config :phoenix_api, PhoenixApiWeb.Endpoint,
-       debug_errors: false
+       debug_errors: false  # 错误提示 修改为json 模式
+
+# config :bcrypt_elixir, :log_rounds, 4
