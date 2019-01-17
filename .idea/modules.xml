@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/connection//connection.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/connection//connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/db_connection//db_connection.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/db_connection//db_connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/decimal//decimal.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/decimal//decimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/ecto//ecto.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/ecto//ecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/file_system//file_system.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/file_system//file_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/gettext//gettext.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/gettext//gettext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/mariaex//mariaex.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/mariaex//mariaex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/mime//mime.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/mime//mime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/node_modules/phoenix//phoenix.iml" filepath="$PROJECT_DIR$/phoenix_mysql/node_modules/phoenix//phoenix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/phoenix-example.iml" filepath="$PROJECT_DIR$/.idea/phoenix-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/phoenix_ecto//phoenix_ecto.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/phoenix_ecto//phoenix_ecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/node_modules/phoenix_html//phoenix_html.iml" filepath="$PROJECT_DIR$/phoenix_mysql/node_modules/phoenix_html//phoenix_html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/phoenix_live_reload//phoenix_live_reload.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/phoenix_live_reload//phoenix_live_reload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql//phoenix_mysql.iml" filepath="$PROJECT_DIR$/phoenix_mysql//phoenix_mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/phoenix_pubsub//phoenix_pubsub.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/phoenix_pubsub//phoenix_pubsub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/plug//plug.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/plug//plug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenix_mysql/deps/poison//poison.iml" filepath="$PROJECT_DIR$/phoenix_mysql/deps/poison//poison.iml" />
+    </modules>
+  </component>
+</project>
