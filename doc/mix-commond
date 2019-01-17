@@ -1,0 +1,28 @@
+Mix
+
+ErLang
+—
+iex 命令行
+
+— 更新引用
+mix deps.update jazz
+
+— 拉取引用
+mix deps.get
+
+— 启动服务
+mix phoenix.server
+
+— 清空引用
+mix deps.clean --all
+
+— 重新编译是，异常可删除此文件
+rm -rf mix.lock
+
+— 查看路由
+mix phoenix.routes
+
+—创建项目（mysql数据库）
+ mix phoenix.new phoemix_mysql --database mysql
+
+mix phoenix.new hello_phoenix --database mysql
